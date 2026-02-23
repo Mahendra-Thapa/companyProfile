@@ -11,8 +11,8 @@ export default function Team() {
 
         <div className="grid md:grid-cols-3 gap-12">
           {[
-            { name: "Tapendra Saud", role: "Executive Director" },
-            { name: "Santosh Shrestha", role: "Managing Director" },
+            { name: "Tapendra Saud", img: "/placeholder.png", role: "Executive Director" },
+            { name: "Santosh Shrestha",  role: "Managing Director" },
             { name: "Hari Bhattrai", role: "Marketing Manager" },
           ].map((member, i) => (
             <div key={i} className="group flex flex-col items-center">
