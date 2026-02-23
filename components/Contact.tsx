@@ -25,7 +25,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-widest text-slate-400 font-bold mb-1">Phone Call</div>
-                    <div className="text-xl font-bold">+00977-01-5928190</div>
+                    <div className="text-xl font-bold">+977-01-5928190</div>
                   </div>
                 </div>
                 
@@ -37,7 +37,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-xs uppercase tracking-widest text-slate-400 font-bold mb-1">Email Address</div>
-                    <div className="text-xl font-bold">Fariglobal45@gmail.com</div>
+                    <div className="text-xl font-bold">fariglobal45@gmail.com</div>
                   </div>
                 </div>
                 
@@ -61,11 +61,11 @@ export default function Contact() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-bold text-slate-700 mb-2 uppercase tracking-wide">Name</label>
-                    <input type="text" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/20 focus:bg-white transition-all" placeholder="John Doe" />
+                    <input type="text" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/20 focus:bg-white transition-all" placeholder="mahendra Thapa" />
                   </div>
                   <div>
                     <label className="block text-sm font-bold text-slate-700 mb-2 uppercase tracking-wide">Email</label>
-                    <input type="email" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/20 focus:bg-white transition-all" placeholder="john@example.com" />
+                    <input type="email" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/20 focus:bg-white transition-all" placeholder="thapa@gmail.com" />
                   </div>
                 </div>
                 <div>
