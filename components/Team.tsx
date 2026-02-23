@@ -41,11 +41,11 @@ export default function Team() {
               img: "/teams/IshworKhanalImage.png",
               role: "Marketing Manager",
             },
-            {
-              name: "Hari Bhattrai ",
-              img: "/teams/hari.png",
-              role: "Marketing Manager",
-            },
+            // {
+            //   name: "Hari Bhattrai ",
+            //   img: "/teams/hari.png",
+            //   role: "Marketing Manager",
+            // },
             
           ].map((member, i) => (
             <div
