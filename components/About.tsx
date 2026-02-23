@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
@@ -49,8 +51,13 @@ export default function About() {
             <div className="relative z-10 aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-primary/10 mix-blend-multiply" />
               <div className="w-full h-full bg-slate-200 flex items-center justify-center text-slate-400 italic font-medium">
-                 {/* This would be the Office/Team image */}
-                 [Company Office Image]
+                  <Image
+                src="/officeImage.png"
+                alt="Hero Image"
+                fill
+                priority
+                className="object-cover object-center"
+              />
               </div>
             </div>
             {/* Floating decoration */}

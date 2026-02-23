@@ -17,30 +17,36 @@ export default function Team() {
         <div className="grid md:grid-cols-3 gap-12">
           {[
             {
+              name: "Kumar Puri ",
+              img: "/teams/kumarImage.png",
+              role: "Chearman",
+            },
+            {
               name: "Tapendra Saud",
-              img: "/teams/tapendraSaud.png",
+              img: "/teams/tapendraSaudImage.png",
               role: "Director",
             },
             {
               name: "Santosh Shrestha",
-              img: "/teams/santosh.png",
+              img: "/teams/santoshShrestha.png",
               role: "Executive Director",
             },
             {
-              name: "Hari Bhattrai",
-              img: "/teams/hari.png",
-              role: "Marketing Manager",
+              name: "Ramesh Devkota ",
+              img: "/teams/rameshDevkota.png",
+              role: "Manager",
             },
             {
               name: "Ishwor Khanal",
-              img: "/teams/ishwor1.png",
+              img: "/teams/IshworKhanalImage.png",
               role: "Marketing Manager",
             },
             {
-              name: "Kumar Puri ",
-              img: "/teams/kumar.png",
-              role: "Chearman",
+              name: "Hari Bhattrai ",
+              img: "/teams/hari.png",
+              role: "Marketing Manager",
             },
+            
           ].map((member, i) => (
             <div
               key={i}
@@ -53,7 +59,7 @@ export default function Team() {
                   alt={member.name}
                   width={1000}
                   height={1000}
-                  className="object-cover  group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                  className="object-cover   group-hover:scale-105 transition-all duration-500"
                   priority={i === 0}
                 />
 
