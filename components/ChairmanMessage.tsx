@@ -12,7 +12,7 @@ export default function ChairmanMessage() {
             {/* Image section */}
             <div className="lg:col-span-5 aspect-square lg:aspect-auto bg-slate-800 relative overflow-hidden group">
               <Image
-                src="/teams/kumar.png"
+                src="/teams/kumarImage.png"
                 alt="Kumar Puri"
                 fill
                 priority
