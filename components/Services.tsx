@@ -17,7 +17,7 @@ export default function Services() {
             "Pharmacists",
             "Administrators",
           ],
-          img: "/services/healthcare.png",
+          img: "/services/healthCare.png",
           color: "from-cyan-400 to-blue-500",
         },
         {

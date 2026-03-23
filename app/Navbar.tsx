@@ -3,9 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -42,15 +44,30 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map(link => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
+            {navLinks.map(link => {
+              const isActive = pathname === link.href;
+
+              return (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className={`text-sm font-semibold transition-colors relative ${
+                    isActive
+                      ? "text-primary"
+                      : "text-slate-600 hover:text-primary"
+                  }`}
+                >
+                  {link.name}
+                  <span
+                    className={`absolute left-0 -bottom-1 h-[2px] w-full bg-primary transition-all duration-300 ${
+                      isActive
+                        ? "opacity-100 scale-x-100"
+                        : "opacity-0 scale-x-0"
+                    }`}
+                  />
+                </Link>
+              );
+            })}
             <a
               href="#contact"
               className="px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-lg hover:bg-secondary transition-all shadow-lg shadow-primary/20"
