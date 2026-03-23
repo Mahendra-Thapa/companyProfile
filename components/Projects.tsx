@@ -89,7 +89,6 @@ export default function Projects() {
               "Oman",
               "Bahrain",
               "Malaysia",
-              "Libya",
             ].map((country, i) => (
               <div
                 key={i}

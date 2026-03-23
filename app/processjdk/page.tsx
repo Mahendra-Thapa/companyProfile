@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Projects from "../../components/Projects";
+import Process from "../../components/Process";
 
-export default function ProjectsPage() {
+export default function ProcessPage() {
   return (
     <div className="pt-20">
       <div className="relative h-[350px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/pages/project.png"
+            src="/pages/aboutus.png"
             alt="About Us"
             fill
             className="object-cover opacity-100"
@@ -16,13 +16,13 @@ export default function ProjectsPage() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-2xl md:text-4xl font-black text-white ">
-            Our Projects
+            Our Process
           </h1>
           <div className="mb-2">
             <p className="text-md md:text-xl text-slate-200 font-light">
               <a href="/">Home</a> /{" "}
               <span className="underline font-semibold text-accent">
-                Our Projects
+                Our Process
               </span>
             </p>
           </div>
@@ -31,7 +31,7 @@ export default function ProjectsPage() {
           </p>
         </div>
       </div>
-      <Projects />
+      <Process />
     </div>
   );
 }

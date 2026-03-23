@@ -13,7 +13,8 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Process", href: "/process" },
+    // { name: "Process", href: "/process" },
+    { name: "Countries", href: "/countries" },
     { name: "Projects", href: "/projects" },
     { name: "Team", href: "/team" },
     { name: "Contact", href: "/contact" },
@@ -69,7 +70,7 @@ export default function Navbar() {
               );
             })}
             <a
-              href="#contact"
+              href="/contact"
               className="px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-lg hover:bg-secondary transition-all shadow-lg shadow-primary/20"
             >
               Get Started

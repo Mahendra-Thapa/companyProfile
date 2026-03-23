@@ -97,11 +97,11 @@ function TeamSection({
 
 export default function Team() {
   return (
-    <section id="team" className="py-28 bg-slate-50">
+    <section id="team" className="py-13 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Header */}
-        <div className="text-center max-w-3xl mx-auto mb-24">
-          <h2 className="text-4xl md:text-5xl font-black mb-6">
+        <div className="text-center max-w-3xl mx-auto mb-8">
+          <h2 className="text-4xl md:text-5xl font-black mb-2">
             Meet Our <span className="text-secondary">Team</span>
           </h2>
           <p className="text-slate-600 text-lg">
