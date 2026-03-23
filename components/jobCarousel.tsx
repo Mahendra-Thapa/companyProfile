@@ -27,7 +27,10 @@ export default function JobCarousel() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 bg-white">
-      <h1 className="text-2xl sm:text-4xl font-bold mb-12 text-center">
+      <div className="flex items-center justify-center" >
+            <p className="inline-block text-centert px-4 py-1.5 bg-accent/20 text-accent text-xs font-bold tracking-[0.2em] uppercase rounded-full mb-6 border border-accent/20">Our Jobs</p>
+          </div>
+      <h1 className="text-2xl sm:text-5xl font-bold mb-12 text-center">
         Looking for Overseas Jobs?
       </h1>
 

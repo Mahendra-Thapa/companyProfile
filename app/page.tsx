@@ -4,6 +4,8 @@ import Services from "../components/Services";
 import Process from "../components/Process";
 import JobCarousel from "@/components/jobCarousel";
 import TestimonialSection from "@/components/Testimonail";
+import HomeServices from "@/components/HomeService";
+import FaqSection from "@/components/FaqSection";
 
 export default function Home() {
   return (
@@ -37,13 +39,14 @@ export default function Home() {
       </div>
 
       <About />
-      <Services />
+      <HomeServices />
       <Process />
       <JobCarousel />
+      <FaqSection />
 
       {/* <TestimonialSection /> */}
 
-      <div className="py-28 bg-slate-50">
+      <div className="py-28 bg-white">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6 text-primary leading-tight">
             Ready to Elevate Your Workforce?

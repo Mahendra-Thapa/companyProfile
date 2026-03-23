@@ -30,16 +30,7 @@ export default function Footer() {
                 return (
                   <div
                     key={i}
-                    className="
-          w-10 h-10
-          bg-white/5
-          rounded-lg
-          flex items-center justify-center
-          hover:bg-white/10
-          transition-colors
-          cursor-pointer
-          border border-white/5
-        "
+                    className=" w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors cursor-pointer border border-white/5 "
                   >
                     <Icon className="w-5 h-5 text-white" />
                   </div>
@@ -107,33 +98,74 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 flex items-center gap-3 text-white ">
-              <span className="w-2 h-2 bg-accent rounded-full" /> Newsletter
+            <h4 className="text-lg font-bold mb-8 flex items-center gap-3 text-white">
+              <span className="w-2 h-2 bg-accent rounded-full" /> Contact Us
             </h4>
             <p className="text-slate-400 mb-6 text-sm">
-              Subscribe to stay updated with our latest opportunities.
+              Reach out directly to discuss your recruitment needs or share your
+              CV.
             </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Email"
-                className="bg-white/5 border border-white/5 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-1 focus:ring-accent w-full"
-              />
-              <button className="bg-accent text-primary px-4 py-3 rounded-lg hover:bg-accent-hover transition-colors">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
-              </button>
+
+            <div className="flex flex-col gap-4">
+              {/* Email Link */}
+              <a
+                href="mailto:fariglobal45@gmail.com"
+                className="group flex items-center justify-between bg-white/5 border border-white/10 rounded-lg px-4 py-3 transition-all hover:bg-white/10 hover:border-accent/50"
+              >
+                <div className="flex flex-col">
+                  <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">
+                    Email Your CV
+                  </span>
+                  <span className="text-sm text-white font-medium">
+                    fariglobal45@gmail.com
+                  </span>
+                </div>
+                <div className="bg-accent text-primary p-2 rounded-md group-hover:scale-110 transition-transform">
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                </div>
+              </a>
+
+              {/* Phone Link (Optional - replace with your number) */}
+              <a
+                href="tel:+977015928190"
+                className="group flex items-center justify-between bg-white/5 border border-white/10 rounded-lg px-4 py-3 transition-all hover:bg-white/10 hover:border-accent/50"
+              >
+                <div className="flex flex-col">
+                  <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">
+                    Call Agent
+                  </span>
+                  <span className="text-sm text-white font-medium">
+                    +977-01-5928190
+                  </span>
+                </div>
+                <div className="bg-accent text-primary p-2 rounded-md group-hover:scale-110 transition-transform">
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    />
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
         </div>
