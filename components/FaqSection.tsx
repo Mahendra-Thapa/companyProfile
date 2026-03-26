@@ -45,7 +45,7 @@ export default function FaqSection() {
               <HelpCircle size={32} />
             </div>
              <h2 className="text-4xl font-black text-primary ">
-            Frequently Asked Questions
+            FAQS
           </h2>
           </div>
          
