@@ -92,51 +92,51 @@ export default function CompanyValues() {
 
         {/* --- 2. WHY CHOOSE US & STRENGTH (Unified Content) --- */}
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-24">
-          <div>
-            <div className="inline-block px-4 py-1.5 bg-secondary/10 text-secondary text-xs font-bold tracking-[0.2em] uppercase rounded-full mb-6">
-              Why Choose Us
-            </div>
-            <h3 className="text-4xl font-black text-primary mb-6">
-              Expertise & <span className="text-secondary">Track Record</span>
-            </h3>
-            <div className="space-y-6 text-slate-600 leading-relaxed">
-              <p>
-                With the immense support of our recruiters and head hunters,
-                your company can improve the ability to achieve key success
-                metrics. One of the key features of our recruitment agencies is
-                the quality group of advisors who are here to work with your
-                business.
-              </p>
-              <p>
-                We have established a reputation of being one of the most
-                professional, trustworthy and dependable Placement companies
-                around the world, with a successful track record of over four
-                decades.
-              </p>
-            </div>
-          </div>
+  <div>
+    <div className="inline-block px-4 py-1.5 bg-secondary/10 text-secondary text-xs font-bold tracking-[0.2em] uppercase rounded-full mb-6">
+      Why Choose Fari Global
+    </div>
+    <h3 className="text-4xl font-black text-primary mb-6">
+      Global Expertise & <span className="text-secondary">Trusted Results</span>
+    </h3>
+    <div className="space-y-6 text-slate-600 leading-relaxed">
+      <p>
+        At Fari Global, we help businesses connect with the right talent
+        through a strong network of recruiters and industry experts. Our
+        approach focuses on understanding your unique needs to deliver
+        efficient and result-driven recruitment solutions.
+      </p>
+      <p>
+        We are committed to professionalism, reliability, and long-term
+        partnerships. With our growing global presence, we aim to provide
+        high-quality workforce solutions that help organizations succeed
+        in a competitive market.
+      </p>
+    </div>
+  </div>
 
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div className="p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
-              <TrendingUp className="text-secondary mb-4 w-10 h-10" />
-              <h4 className="font-bold text-primary mb-2">
-                Effective Planning
-              </h4>
-              <p className="text-xs text-slate-500">
-                We design questionnaires to give us a clear understanding of
-                your specific requirements.
-              </p>
-            </div>
-            <div className="p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
-              <MapPin className="text-secondary mb-4 w-10 h-10" />
-              <h4 className="font-bold text-primary mb-2">Our Presence</h4>
-              <p className="text-xs text-slate-500">
-                Widespread network of offices in metros and tier cities,
-                including international tie-ups.
-              </p>
-            </div>
-          </div>
-        </div>
+  <div className="grid sm:grid-cols-2 gap-6">
+    <div className="p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+      <TrendingUp className="text-secondary mb-4 w-10 h-10" />
+      <h4 className="font-bold text-primary mb-2">
+        Smart Recruitment Strategy
+      </h4>
+      <p className="text-xs text-slate-500">
+        We use structured processes and insights to match the right
+        candidates with your business needs efficiently.
+      </p>
+    </div>
+
+    <div className="p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+      <MapPin className="text-secondary mb-4 w-10 h-10" />
+      <h4 className="font-bold text-primary mb-2">Global Reach</h4>
+      <p className="text-xs text-slate-500">
+        Strong presence with international connections, helping you access
+        talent and opportunities across borders.
+      </p>
+    </div>
+  </div>
+</div>
 
         {/* --- 3. CORE VALUES GRID --- */}
         <div className="text-center">

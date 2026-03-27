@@ -40,7 +40,7 @@ export default function Home() {
 
       <About />
       <HomeServices />
-      <Process />
+      {/* <Process /> */}
       <JobCarousel />
       <FaqSection />
 
