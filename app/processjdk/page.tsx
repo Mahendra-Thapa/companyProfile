@@ -27,7 +27,7 @@ export default function ProcessPage() {
             </p>
           </div>
           <p className="text-md md:text-xl text-gray-300 ">
-            Connecting Opportunities Across Global Markets
+           Guiding You Step by Step Towards Your Goals
           </p>
         </div>
       </div>

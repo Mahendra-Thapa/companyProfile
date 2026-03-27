@@ -175,15 +175,15 @@ export default function Footer() {
             © 2025 Fari Global Overseas Pvt. Ltd. All rights reserved.
           </div>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/privacyPolicy" className="hover:text-white transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/TermsOfService" className="hover:text-white transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            {/* <a href="#" className="hover:text-white transition-colors">
               Cookie Policy
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

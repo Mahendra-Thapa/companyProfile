@@ -2,6 +2,13 @@ import CompanyValues from "@/components/CompanyValues";
 import About from "../../components/About";
 import ChairmanMessage from "../../components/ChairmanMessage";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Fari Global Overseas",
+  description:
+    "Learn about our mission, vision, and values. Connecting Opportunities Across Global Markets.",
+};
 
 export default function AboutPage() {
   return (
@@ -34,8 +41,8 @@ export default function AboutPage() {
         </div>
       </div>
       <About />
-      <CompanyValues />
       <ChairmanMessage />
+      <CompanyValues />
     </div>
   );
 }

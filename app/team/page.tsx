@@ -1,5 +1,11 @@
 import Image from "next/image";
 import Team from "../../components/Team";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Team | Fari Global Overseas",
+  description: "Meet our team of dedicated professionals. Committed to excellence in every project."
+};
 
 export default function TeamPage() {
   return (
@@ -27,7 +33,7 @@ export default function TeamPage() {
             </p>
           </div>
           <p className="text-md md:text-xl text-gray-300 ">
-            Connecting Opportunities Across Global Markets
+            A Dedicated Team Committed to Excellence
           </p>
         </div>
       </div>

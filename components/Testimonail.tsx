@@ -123,7 +123,7 @@ export default function TestimonialSection() {
                       ))}
                     </div>
 
-                    <blockquote className="text-xl md:text-3xl font-medium text-gray-800 leading-relaxed mb-10 min-h-[120px] flex items-center">
+                    <blockquote className="text-lg md:text-xl font-medium text-gray-800 leading-relaxed mb-2 flex items-center">
                       "{item.content}"
                     </blockquote>
 

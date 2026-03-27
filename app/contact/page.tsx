@@ -1,5 +1,11 @@
 import Contact from "../../components/Contact";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Fari Global Overseas",
+  description: "Connect with Fari Global Overseas for inquiries, support, and partnership opportunities. We’re here to help you anytime."
+};
 
 export default function ContactPage() {
   return (
@@ -27,7 +33,7 @@ export default function ContactPage() {
             </p>
           </div>
           <p className="text-md md:text-xl text-gray-300 ">
-            Connecting Opportunities Across Global Markets
+             We’re Here to Help You Anytime
           </p>
         </div>
       </div>

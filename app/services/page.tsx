@@ -1,5 +1,11 @@
 import Image from "next/image";
 import Services from "../../components/Services";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Services | Fari Global Overseas",
+  description: "Explore our services. Showcasing our work and achievements across different sectors."
+};
 
 export default function ServicesPage() {
   return (
@@ -7,7 +13,7 @@ export default function ServicesPage() {
       <div className="relative h-[350px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/pages/service.png"
+            src="/pages/services.png"
             alt="About Us"
             fill
             className="object-cover opacity-100"
@@ -27,7 +33,7 @@ export default function ServicesPage() {
             </p>
           </div>
           <p className="text-md md:text-xl text-gray-300 ">
-            Connecting Opportunities Across Global Markets
+           Empowering Your Success Through Our Services
           </p>
         </div>
       </div>
